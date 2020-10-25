@@ -3,6 +3,7 @@ import { ExampleButton } from "../components/button"
 
 import Layout from "../components/layout"
 export default function Home() {
+  
   return(
     <div>
     

@@ -14,6 +14,8 @@ persn:{name:"alif",age:12},
   },
   /* Your site config here */
   plugins: [`gatsby-plugin-styled-components`,
+  `gatsby-transformer-sharp`,
+   `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {

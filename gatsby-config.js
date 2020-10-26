@@ -13,5 +13,13 @@ data:['itwm1',"item2"],
 persn:{name:"alif",age:12},
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-styled-components`],
+  plugins: [`gatsby-plugin-styled-components`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `images`,
+      path: `${__dirname}/src/images/`,
+    },
+  },
+],
 }
